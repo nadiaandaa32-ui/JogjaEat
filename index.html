@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JogjaEats - Jelajah Kuliner Yogyakarta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Lora:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg px-5 py-4 fixed-top navbar-transparent">
+        <a class="navbar-brand fw-bold" href="#">Jogja<span>Eats</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li><a class="nav-link active" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="pages/rekomendasi.html">Rekomendasi</a></li>
+                <li><a class="nav-link" href="pages/ragam-rasa.html">Ragam Rasa</a></li>
+                <li><a class="nav-link" href="pages/testimony.html">Testimoni</a></li>
+                <li><a class="nav-link" href="pages/kontak.html">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="hero d-flex align-items-center">
+        <div class="container text-center text-white">
+            <h1 class="display-3 fw-bold mb-3">Warisan Rasa <span class="text-warning">Yogyakarta</span></h1>
+            <p class="lead mb-4 mx-auto col-lg-8">Menemukan kehangatan tradisi melalui setiap suapan kuliner legendaris yang otentik dan istimewa.</p>
+            <a href="#rekomendasi" class="btn btn-warning btn-lg px-5 py-3 fw-bold rounded-pill shadow">Lihat Rekomendasi</a>
+        </div>
+    </header>
+
+    <section id="rekomendasi" class="my-5 pt-4">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title"><span>Rekomendasi</span> Terpilih</h2>
+                <p class="text-muted">Pilihan utama tempat makan yang wajib dikunjungi.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card card-custom h-100 border-0 shadow-sm">
+                        <div class="position-relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1596797038530-2c107229654b?q=80&w=600" class="card-img-top" alt="Gudeg">
+                            <span class="badge bg-danger position-absolute top-0 end-0 m-3 p-2">Best Choice</span>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold mb-1">Gudeg Yu Djum</h5>
+                            <small class="text-muted d-block mb-3"><i class="fas fa-map-marker-alt"></i> Wijilan, Yogyakarta</small>
+                            <p class="card-text small text-secondary"><strong>Detail:</strong> Pelopor gudeg kering sejak 1950. Dimasak 24 jam dengan tungku kayu bakar menghasilkan tekstur nangka yang legit.</p>
+                            <hr>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="text-brown fw-bold">Rp 25.000+</span>
+                                <a href="pages/kuliner/gudeg.html" class="text-decoration-none fw-bold text-warning small">Cek Detail <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card card-custom h-100 border-0 shadow-sm">
+                        <img src="https://i1-e.pinimg.com/736x/70/27/56/7027563c3dc82d5a6d250015728e5437.jpg" class="card-img-top" alt="Sate">
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold mb-1">Sate Klatak Pak Bari</h5>
+                            <small class="text-muted d-block mb-3"><i class="fas fa-map-marker-alt"></i> Pasar Wonokromo, Bantul</small>
+                            <p class="card-text small text-secondary"><strong>Detail:</strong> Sate kambing unik yang hanya dibumbui garam dan dibakar menggunakan jeruji besi sepeda agar panas merata.</p>
+                            <hr>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="text-brown fw-bold">Rp 30.000+</span>
+                                <a href="pages/kuliner/sate.html" class="text-decoration-none fw-bold text-warning small">Cek Detail<i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card card-custom h-100 border-0 shadow-sm">
+                        <img src="https://i1-e.pinimg.com/736x/68/bc/49/68bc498d154d4ea0f90184b6f18528d0.jpg" class="card-img-top" alt="Bakmi">
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold mb-1">Bakmi Jawa Pak Pele</h5>
+                            <small class="text-muted d-block mb-3"><i class="fas fa-map-marker-alt"></i> Alun-Alun Utara</small>
+                            <p class="card-text small text-secondary"><strong>Detail:</strong> Bakmi godhog dengan telur bebek yang kental. Menggunakan ayam kampung asli dan dimasak satu per satu menggunakan anglo.</p>
+                            <hr>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="text-brown fw-bold">Rp 24.000+</span>
+                                <a href="pages/kuliner/bakmi.html" class="text-decoration-none fw-bold text-warning small">Cek Detail <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-5 bg-cream shadow-inner home-categories">
+        <div class="container">
+            <div class="categories-header mb-4">
+                <h2>Kategori Ragam Rasa</h2>
+                <p>Pilih petualangan kulinermu berdasarkan tradisi rasa yang legendaris</p>
+            </div>
+            <div class="categories-grid">
+                <div class="category-box" style="background-image: linear-gradient(rgba(45,30,19,0.6), rgba(45,30,19,0.8)), url('https://i1-e.pinimg.com/1200x/e3/32/fb/e332fb5c00865e340e71a27a7db10502.jpg');">
+                    <div class="category-badge">Utama</div>
+                    <h3>Panganan Awrat (Makanan Berat)</h3>
+                    <p>Dari manisnya Gudeg Wijilan hingga gurihnya Brongkos dan Sate Klatak.</p>
+                    <a href="pages/kategori/detail1.html" class="category-link">Eksplor Menu ➔</a>
+                </div>
+                <div class="category-box" style="background-image: linear-gradient(rgba(45,30,19,0.6), rgba(45,30,19,0.8)), url('https://i1-e.pinimg.com/1200x/09/1a/11/091a11b5b6af5dec6198f404f92c147c.jpg');">
+                    <div class="category-badge">Oleh-oleh</div>
+                    <h3>Nyamilan (Camilan Tradisional)</h3>
+                    <p>Kelembutan Bakpia Pathok, legitimasi Yangko, hingga renyahnya Belalang Goreng.</p>
+                    <a href="pages/kategori/detail2.html" class="category-link">Eksplor Camilan ➔</a>
+                </div>
+                <div class="category-box" style="background-image: linear-gradient(rgba(45,30,19,0.6), rgba(45,30,19,0.8)), url('https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=500&auto=format&fit=cover');">
+                    <div class="category-badge">Khas</div>
+                    <h3>Unjukan (Minuman Hangat)</h3>
+                    <p>Keunikan Kopi Jos, kehangatan Wedang Ronde, Wedang Uwuh, hingga Es Dawet.</p>
+                    <a href="pages/kategori/detail3.html" class="category-link">Eksplor Minuman ➔</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5">
+        <h2 class="section-title text-center mb-5">Ulasan <span>Pecinta Kuliner</span></h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="testi-card p-4 border rounded shadow-sm bg-white">
+                    <i class="fas fa-quote-left text-warning fa-2x mb-3"></i>
+                    <p class="fst-italic small text-muted">"Gudegnya benar-benar juara. Rasanya tetap sama seperti 10 tahun lalu."</p>
+                    <hr>
+                    <h6 class="fw-bold mb-0">-Nadia Layla</h6>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testi-card p-4 border rounded shadow-sm bg-white">
+                    <i class="fas fa-quote-left text-warning fa-2x mb-3"></i>
+                    <p class="fst-italic small text-muted">"Sate Klatak Pak Bari favorit keluarga. Dagingnya empuk dan web ini mempermudah pencarian."</p>
+                    <hr>
+                    <h6 class="fw-bold mb-0">- Maya Indah</h6>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testi-card p-4 border rounded shadow-sm bg-white">
+                    <i class="fas fa-quote-left text-warning fa-2x mb-3"></i>
+                    <p class="fst-italic small text-muted">"Rasa gurih yang dihasilkan dari kaldu ayam kampung asli berpadu sempurna dengan aroma khas pembakaran arang."</p>
+                    <hr>
+                    <h6 class="fw-bold mb-0">- Intania</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <h3>Kuliner<span>Jogja</span></h3>
+                    <p class="text-white-50">Media informasi kuliner Yogyakarta paling lengkap. Menjaga warisan rasa budaya Nusantara agar tetap abadi.</p>
+                </div>
+                <div class="col-lg-3">
+                    <h4>Navigasi</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white-50 text-decoration-none">Home</a></li>
+                        <li><a href="pages/rekomendasi.html" class="text-white-50 text-decoration-none">Rekomendasi</a></li>
+                        <li><a href="pages/ragam-rasa.html" class="text-white-50 text-decoration-none">Ragam Rasa</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 social">
+                    <h4>Media Sosial</h4>
+                    <div class="d-flex gap-3 fs-4">
+                    <a href="#" class="social-icon">FB</a>
+                    <a href="#" class="social-icon">IG</a>
+                    <a href="#" class="social-icon">TW</a>
+                </div>
+                </div>
+            </div>
+            <hr class="mt-5 border-secondary">
+            <div class="text-center small text-white-50">
+                &copy; 2026 Kuliner Jogja. Seluruh Hak Cipta Dilindungi.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

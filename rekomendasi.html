@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rekomendasi Kuliner - JogjaEats</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Lora:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/stylelat.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg px-5 py-4 fixed-top navbar-transparent ">
+        <a class="navbar-brand fw-bold" href="#">Jogja<span>Eats</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="rekomendasi.html">Rekomendasi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ragam-rasa.html">Ragam Rasa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="testimony.html">Testimoni</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kontak.html">Kontak</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="rekomendasi-header">
+        <div class="header-overlay"></div>
+        <div class="header-content">
+            <h1>Rekomendasi <span>Cita Rasa</span> Jogja</h1>
+            <p>Bukan sekadar tempat makan, melainkan cerita, tradisi, dan kehangatan yang diramu di atas piring. Temukan tujuan kuliner Anda berikutnya di bawah ini.</p>
+        </div>
+    </header>
+
+    <main class="container-rekomendasi">
+        
+        <aside class="filter-sidebar">
+            <h3>Kategori Rasa</h3>
+            <ul class="filter-options">
+                <li><button class="filter-btn active" data-filter="all">🌟 Semua Pilihan</button></li>
+                <li><button class="filter-btn" data-filter="legendaris">👑 Legendaris Kuliner</button></li>
+                <li><button class="filter-btn" data-filter="malam">🌙 Kehidupan Malam</button></li>
+                <li><button class="filter-btn" data-filter="ndeso">☕ Nuansa Pedesaan</button></li>
+                <li><button class="filter-btn" data-filter="pedas">🔥 Sensasi Pedas</button></li>
+            </ul>
+        </aside>
+
+        <section class="items-section">
+            <div class="cards-grid">
+                
+                <div class="culinary-card" data-category="legendaris">
+                    <div class="card-image-wrapper">
+                        <div class="card-img" style="background-image: url('https://i1-e.pinimg.com/736x/65/99/d8/6599d8b5261f20d3f1863e94f6be9522.jpg');"></div>
+                        <span class="badge badge-legendaris">👑 Legendaris</span>
+                    </div>
+                    <div class="card-details">
+                        <div class="card-meta">📍 Area Wijilan, Krathongan</div>
+                        <h3>Gudeg Kering Yu Djum</h3>
+                        <p class="card-desc">Pelopor gudeg kering autentik yang dimasak secara tradisional menggunakan tungku kayu bakar selama berjam-jam. Menghasilkan rasa manis nangka muda yang pekat, areh gurih yang padat, berpadu sempurna dengan krecek pedas menggigit.</p>
+                        <div class="card-highlight">
+                            <strong>✨ Rekomendasi Menu:</strong> Paket Nasi Gudeg Telur Suwir & Kepala Ayam Kampung.
+                        </div>
+                        <div class="card-footer-info">
+                            <span class="price-range">💰 Rp 25.000 - Rp 55.000</span>
+                            <a href="kuliner/gudeg.html" class="btn-explore">Lihat Resep →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="culinary-card" data-category="legendaris">
+                    <div class="card-image-wrapper">
+                        <div class="card-img" style="background-image: url('https://i1-e.pinimg.com/736x/70/27/56/7027563c3dc82d5a6d250015728e5437.jpg');"></div>
+                        <span class="badge badge-legendaris">👑 Legendaris</span>
+                    </div>
+                    <div class="card-details">
+                        <div class="card-meta">📍 Pasar Wonokromo, Bantul</div>
+                        <h3>Sate Klatak Pak Bari</h3>
+                        <p class="card-desc">Keunikan sate kambing muda yang hanya dibumbui garam alami, lalu dibakar di atas bara menggunakan jeruji besi sepeda sebagai tusukannya. Metode ini membuat daging matang merata di bagian dalam, menghasilkan tekstur yang sangat empuk dan *juicy*.</p>
+                        <div class="card-highlight">
+                            <strong>✨ Rekomendasi Menu:</strong> Sate Klatak (Isi 2 tusuk besar) dipadu Kuah Gulai Rempah Hangat.
+                        </div>
+                        <div class="card-footer-info">
+                            <span class="price-range">💰 Rp 30.000 - Rp 45.000</span>
+                            <a href="kuliner/sate.html" class="btn-explore">Lihat Resep →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="culinary-card" data-category="malam">
+                    <div class="card-image-wrapper">
+                        <div class="card-img" style="background-image: url('https://i1-e.pinimg.com/736x/68/bc/49/68bc498d154d4ea0f90184b6f18528d0.jpg');"></div>
+                        <span class="badge badge-malam">🌙 Kuliner Malam</span>
+                    </div>
+                    <div class="card-details">
+                        <div class="card-meta">📍 Kawasan Utara Stasiun Tugu</div>
+                        <h3>Bakmi Jawa</h3>
+                        <p class="card-desc">Berbeda dengan bakmi komersial lainnya, Bakmi Jawa dimasak satu per satu per porsi. Teknik ini memastikan sari kaldu ayam kampung dan telur bebek meresap sempurna ke dalam mi, menciptakan aroma asap (smoky) yang sangat khas dan gurih alami.</p>
+                        <div class="card-highlight">
+                            <strong>✨ Rekomendasi Menu:</strong> Kopi Joss, Sego Kucing Sambal Teri, dan aneka Sate Kulit Bakar.
+                        </div>
+                        <div class="card-footer-info">
+                            <span class="price-range">💰 Rp 15.000 - Rp 25.000</span>
+                            <a href="kuliner/bakmi.html" class="btn-explore">Lihat Resep →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="culinary-card" data-category="ndeso">
+                    <div class="card-image-wrapper">
+                        <div class="card-img" style="background-image: url('https://i1-e.pinimg.com/1200x/be/19/36/be1936a7a893e8ac6349f404de5668d3.jpg');"></div>
+                        <span class="badge badge-pedas">🔥 Sensasi Pedas</span>
+                    </div>
+                    <div class="card-details">
+                        <div class="card-meta">📍 Pakem, Kaliurang, Sleman</div>
+                        <h3>Oseng Mercon</h3>
+                        <p class="card-desc">Menawarkan atmosfer rumah Joglo pedesaan pinggir sawah dengan latar belakang kemegahan Gunung Merapi. Konsep prasmanan menyajikan sayur lodeh ndeso khas rumah mbah, berpadu dengan pisang goreng kepok panas yang renyah di luar namun lembut di dalam.</p>
+                        <div class="card-highlight">
+                            <strong>✨ Rekomendasi Menu:</strong> Lodeh kluwih sepuasnya, Kopi Klotok Pahit, dan Pisang Goreng.
+                        </div>
+                        <div class="card-footer-info">
+                            <span class="price-range">💰 Rp 6.000 - Rp 25.000</span>
+                            <a href="kuliner/oseng.html" class="btn-explore">Lihat Resep →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="culinary-card" data-category="pedas">
+                    <div class="card-image-wrapper">
+                        <div class="card-img" style="background-image: url('https://i1-e.pinimg.com/736x/ee/1b/45/ee1b45fc14aa235d70611a09139ad0af.jpg');"></div>
+                        <span class="badge badge-ndeso">☕ Nuansa Pedesaan</span>
+                    </div>
+                    <div class="card-details">
+                        <div class="card-meta">📍 Jl. KH. Ahmad Dahlan, Ngampilan</div>
+                        <h3>Nasi Kucing</h3>
+                        <p class="card-desc">Destinasi utama bagi para pencinta tantangan rasa pedas ekstrem. Kuliner ini berupa tumisan koyor (otot, lemak, dan tetelan daging sapi) yang dimasak bersama ulekan ratusan cabai rawit merah. Pedasnya meledak seketika, namun bumbu rempahnya tetap gurih meresap.</p>
+                        <div class="card-highlight">
+                            <strong>✨ Rekomendasi Menu:</strong> Nasi Oseng Mercon Koyor ditemani Es Teh Manis Jumbo.
+                        </div>
+                        <div class="card-footer-info">
+                            <span class="price-range">💰 Rp 28.000 - Rp 40.000</span>
+                            <a href="kuliner/nasi-kucing.html" class="btn-explore">Lihat Resep →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="culinary-card" data-category="malam">
+                    <div class="card-image-wrapper">
+                        <div class="card-img" style="background-image: url('https://i1-e.pinimg.com/736x/21/6c/55/216c55fe22ecf4a8e3a74d017149ae68.jpg');"></div>
+                        <span class="badge badge-malam">🌙 Kuliner Malam</span>
+                    </div>
+                    <div class="card-details">
+                        <div class="card-meta">📍 Pojok Alun-Alun Utara</div>
+                        <h3>Krecek Gudeg</h3>
+                        <p class="card-desc">Kuliner bakmi malam favorit yang dimasak secara tradisional satu per satu menggunakan tungku tanah liat (*anglo*). Kuah kaldunya kuning kental berkat penggunaan telur bebek segar dan suwiran ayam kampung, memberikan aroma gurih berasap (*smoky*) yang menggoda selera.</p>
+                        <div class="card-highlight">
+                            <strong>✨ Rekomendasi Menu:</strong> Bakmi Nyemek (kuah sedikit kental) atau Magelangan Pedas manis.
+                        </div>
+                        <div class="card-footer-info">
+                            <span class="price-range">💰 Rp 24.000 - Rp 35.000</span>
+                            <a href="kuliner/krecek.html" class="btn-explore">Lihat Resep →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="culinary-card" data-category="malam">
+                    <div class="card-image-wrapper">
+                        <div class="card-img" style="background-image: url('https://i1-e.pinimg.com/1200x/33/75/36/33753613945736661130ef7156f3595c.jpg');"></div>
+                        <span class="badge badge-ndeso">☕ Nuansa Pedesaan</span>
+                    </div>
+                    <div class="card-details">
+                        <div class="card-meta">📍 Pojok Alun-Alun Utara</div>
+                        <h3>Lotek Jogja</h3>
+                        <p class="card-desc">Kuliner bakmi malam favorit yang dimasak secara tradisional satu per satu menggunakan tungku tanah liat (*anglo*). Kuah kaldunya kuning kental berkat penggunaan telur bebek segar dan suwiran ayam kampung, memberikan aroma gurih berasap (*smoky*) yang menggoda selera.</p>
+                        <div class="card-highlight">
+                            <strong>✨ Rekomendasi Menu:</strong> Bakmi Nyemek (kuah sedikit kental) atau Magelangan Pedas manis.
+                        </div>
+                        <div class="card-footer-info">
+                            <span class="price-range">💰 Rp 24.000 - Rp 35.000</span>
+                            <a href="kuliner/lotek.html" class="btn-explore">Lihat Resep →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="culinary-card" data-category="malam">
+                    <div class="card-image-wrapper">
+                        <div class="card-img" style="background-image: url('https://i1-e.pinimg.com/1200x/73/7d/b2/737db2bb320eb6af233eb80f0db56350.jpg');"></div>
+                        <span class="badge badge-legendaris">👑 Legendaris</span>
+                    </div>
+                    <div class="card-details">
+                        <div class="card-meta">📍 Pojok Alun-Alun Utara</div>
+                        <h3>Bakpia Pathok</h3>
+                        <p class="card-desc">Kuliner bakmi malam favorit yang dimasak secara tradisional satu per satu menggunakan tungku tanah liat (*anglo*). Kuah kaldunya kuning kental berkat penggunaan telur bebek segar dan suwiran ayam kampung, memberikan aroma gurih berasap (*smoky*) yang menggoda selera.</p>
+                        <div class="card-highlight">
+                            <strong>✨ Rekomendasi Menu:</strong> Bakmi Nyemek (kuah sedikit kental) atau Magelangan Pedas manis.
+                        </div>
+                        <div class="card-footer-info">
+                            <span class="price-range">💰 Rp 24.000 - Rp 35.000</span>
+                            <a href="kuliner/bakpia.html" class="btn-explore">Lihat Resep →</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <h3>Kuliner<span>Jogja</span></h3>
+                <p>Media informasi kuliner Yogyakarta paling lengkap. Menjaga warisan rasa budaya Nusantara agar tetap abadi sepanjang masa.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navigasi</h4>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="rekomendasi.html">Rekomendasi</a></li>
+                    <li><a href="ragam-rasa.html">Ragam Rasa</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Ikuti Kami</h4>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">FB</a>
+                    <a href="#" class="social-icon">IG</a>
+                    <a href="#" class="social-icon">TW</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 Kuliner Jogja. Seluruh Hak Cipta Dilindungi.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/scriptlat.js"></script>
+</body>
+</html>
